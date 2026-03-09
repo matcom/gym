@@ -1,4 +1,4 @@
-SUBMIT = True
+SUBMIT = False
 
 
 def hello_world() -> str:
@@ -8,8 +8,4 @@ def hello_world() -> str:
     >>> hello_world()
     'Hello, World!'
     """
-    return "Hello, World!"
-
-
-# Workflow test internal
-# Trigger retry
+    pass
