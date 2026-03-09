@@ -1,5 +1,4 @@
 import pytest
-
 from exercises.fibonacci.solution import SUBMIT, fibonacci
 
 if not SUBMIT:

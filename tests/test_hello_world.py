@@ -1,5 +1,4 @@
 import pytest
-
 from exercises.hello_world.solution import SUBMIT, hello_world
 
 if not SUBMIT:
