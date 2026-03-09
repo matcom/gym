@@ -1,3 +1,7 @@
 # Leaderboard
 
-The rankings are currently being calculated. Submit your first exercise to appear here!
+The following table shows the current rankings of all students.
+
+| Rank | Student | Score | Completed Exercises |
+| :--- | :--- | :---: | :--- |
+| 1 | apiad | 0 |  |
