@@ -1,11 +1,6 @@
 SUBMIT = False
 
 
-def hello_world() -> str:
-    """Returns the string 'Hello, World!'.
-
-    Example usage:
-    >>> hello_world()
-    'Hello, World!'
-    """
+def hello_world() -> int | None:
+    """The classic first step in programming."""
     pass

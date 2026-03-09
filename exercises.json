@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "hello_world",
+    "title": "Hello World",
+    "weight": 5,
+    "complexity": "Easy"
+  },
+  {
+    "slug": "fibonacci",
+    "title": "Fibonacci Numbers",
+    "weight": 10,
+    "complexity": "Easy"
+  }
+]
