@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>None./</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="None"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/"/>
+    </url>
+    <url>
+        <loc>Noneexercises/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/"/>
+    </url>
+    <url>
+        <loc>Noneleaderboard/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneleaderboard/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/leaderboard/"/>
+    </url>
+    <url>
+        <loc>Noneexercises/binary_search_recursive/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/binary_search_recursive/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/binary_search_recursive/"/>
+    </url>
+    <url>
+        <loc>Noneexercises/case_inverter/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/case_inverter/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/case_inverter/"/>
+    </url>
+    <url>
+        <loc>Noneexercises/celsius_to_fahrenheit/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/celsius_to_fahrenheit/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/celsius_to_fahrenheit/"/>
+    </url>
+    <url>
+        <loc>Noneexercises/char_frequency/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/char_frequency/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/char_frequency/"/>
+    </url>
+    <url>
+        <loc>Noneexercises/count_vowels/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/count_vowels/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/count_vowels/"/>
+    </url>
+    <url>
+        <loc>Noneexercises/factorial_iterative/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/factorial_iterative/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/factorial_iterative/"/>
+    </url>
+    <url>
+        <loc>Noneexercises/factorial_tail/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/factorial_tail/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/factorial_tail/"/>
+    </url>
+    <url>
+        <loc>Noneexercises/fast_exponentiation/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/fast_exponentiation/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/fast_exponentiation/"/>
+    </url>
+    <url>
+        <loc>Noneexercises/fibonacci/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/fibonacci/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/fibonacci/"/>
+    </url>
+    <url>
+        <loc>Noneexercises/fibonacci_tail/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/fibonacci_tail/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/fibonacci_tail/"/>
+    </url>
+    <url>
+        <loc>Noneexercises/hello_world/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/hello_world/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/hello_world/"/>
+    </url>
+    <url>
+        <loc>Noneexercises/linear_search/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/linear_search/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/linear_search/"/>
+    </url>
+    <url>
+        <loc>Noneexercises/list_average/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/list_average/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/list_average/"/>
+    </url>
+    <url>
+        <loc>Noneexercises/list_mode/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/list_mode/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/list_mode/"/>
+    </url>
+    <url>
+        <loc>Noneexercises/matrix_add/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/matrix_add/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/matrix_add/"/>
+    </url>
+    <url>
+        <loc>Noneexercises/matrix_mul/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/matrix_mul/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/matrix_mul/"/>
+    </url>
+    <url>
+        <loc>Noneexercises/matrix_trace/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/matrix_trace/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/matrix_trace/"/>
+    </url>
+    <url>
+        <loc>Noneexercises/min_max_list/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/min_max_list/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/min_max_list/"/>
+    </url>
+    <url>
+        <loc>Noneexercises/palindrome/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/palindrome/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/palindrome/"/>
+    </url>
+    <url>
+        <loc>Noneexercises/personalized_greeting/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/personalized_greeting/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/personalized_greeting/"/>
+    </url>
+    <url>
+        <loc>Noneexercises/poly_add/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/poly_add/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/poly_add/"/>
+    </url>
+    <url>
+        <loc>Noneexercises/poly_evaluate/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/poly_evaluate/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/poly_evaluate/"/>
+    </url>
+    <url>
+        <loc>Noneexercises/poly_mul/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/poly_mul/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/poly_mul/"/>
+    </url>
+    <url>
+        <loc>Noneexercises/prefix_sums/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/prefix_sums/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/prefix_sums/"/>
+    </url>
+    <url>
+        <loc>Noneexercises/prime_check/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/prime_check/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/prime_check/"/>
+    </url>
+    <url>
+        <loc>Noneexercises/recursive_min_max/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/recursive_min_max/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/recursive_min_max/"/>
+    </url>
+    <url>
+        <loc>Noneexercises/simple_interest/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/simple_interest/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/simple_interest/"/>
+    </url>
+    <url>
+        <loc>Noneexercises/string_reversal/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/string_reversal/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/string_reversal/"/>
+    </url>
+    <url>
+        <loc>Noneexercises/sum_list_recursive/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/sum_list_recursive/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/sum_list_recursive/"/>
+    </url>
+    <url>
+        <loc>Noneexercises/sum_two_numbers/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/sum_two_numbers/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/sum_two_numbers/"/>
+    </url>
+    <url>
+        <loc>Noneexercises/variable_swap/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/variable_swap/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/variable_swap/"/>
+    </url>
+    <url>
+        <loc>Noneexercises/word_count/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/word_count/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/word_count/"/>
+    </url>
+    <url>
+        <loc>Nonees/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="None"/>
+    </url>
+    <url>
+        <loc>Nonees/exercises/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/"/>
+    </url>
+    <url>
+        <loc>Nonees/leaderboard/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/leaderboard/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneleaderboard/"/>
+    </url>
+    <url>
+        <loc>Nonees/exercises/binary_search_recursive/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/binary_search_recursive/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/binary_search_recursive/"/>
+    </url>
+    <url>
+        <loc>Nonees/exercises/case_inverter/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/case_inverter/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/case_inverter/"/>
+    </url>
+    <url>
+        <loc>Nonees/exercises/celsius_to_fahrenheit/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/celsius_to_fahrenheit/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/celsius_to_fahrenheit/"/>
+    </url>
+    <url>
+        <loc>Nonees/exercises/char_frequency/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/char_frequency/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/char_frequency/"/>
+    </url>
+    <url>
+        <loc>Nonees/exercises/count_vowels/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/count_vowels/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/count_vowels/"/>
+    </url>
+    <url>
+        <loc>Nonees/exercises/factorial_iterative/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/factorial_iterative/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/factorial_iterative/"/>
+    </url>
+    <url>
+        <loc>Nonees/exercises/factorial_tail/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/factorial_tail/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/factorial_tail/"/>
+    </url>
+    <url>
+        <loc>Nonees/exercises/fast_exponentiation/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/fast_exponentiation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/fast_exponentiation/"/>
+    </url>
+    <url>
+        <loc>Nonees/exercises/fibonacci/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/fibonacci/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/fibonacci/"/>
+    </url>
+    <url>
+        <loc>Nonees/exercises/fibonacci_tail/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/fibonacci_tail/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/fibonacci_tail/"/>
+    </url>
+    <url>
+        <loc>Nonees/exercises/hello_world/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/hello_world/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/hello_world/"/>
+    </url>
+    <url>
+        <loc>Nonees/exercises/linear_search/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/linear_search/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/linear_search/"/>
+    </url>
+    <url>
+        <loc>Nonees/exercises/list_average/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/list_average/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/list_average/"/>
+    </url>
+    <url>
+        <loc>Nonees/exercises/list_mode/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/list_mode/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/list_mode/"/>
+    </url>
+    <url>
+        <loc>Nonees/exercises/matrix_add/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/matrix_add/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/matrix_add/"/>
+    </url>
+    <url>
+        <loc>Nonees/exercises/matrix_mul/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/matrix_mul/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/matrix_mul/"/>
+    </url>
+    <url>
+        <loc>Nonees/exercises/matrix_trace/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/matrix_trace/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/matrix_trace/"/>
+    </url>
+    <url>
+        <loc>Nonees/exercises/min_max_list/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/min_max_list/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/min_max_list/"/>
+    </url>
+    <url>
+        <loc>Nonees/exercises/palindrome/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/palindrome/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/palindrome/"/>
+    </url>
+    <url>
+        <loc>Nonees/exercises/personalized_greeting/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/personalized_greeting/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/personalized_greeting/"/>
+    </url>
+    <url>
+        <loc>Nonees/exercises/poly_add/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/poly_add/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/poly_add/"/>
+    </url>
+    <url>
+        <loc>Nonees/exercises/poly_evaluate/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/poly_evaluate/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/poly_evaluate/"/>
+    </url>
+    <url>
+        <loc>Nonees/exercises/poly_mul/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/poly_mul/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/poly_mul/"/>
+    </url>
+    <url>
+        <loc>Nonees/exercises/prefix_sums/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/prefix_sums/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/prefix_sums/"/>
+    </url>
+    <url>
+        <loc>Nonees/exercises/prime_check/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/prime_check/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/prime_check/"/>
+    </url>
+    <url>
+        <loc>Nonees/exercises/recursive_min_max/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/recursive_min_max/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/recursive_min_max/"/>
+    </url>
+    <url>
+        <loc>Nonees/exercises/simple_interest/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/simple_interest/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/simple_interest/"/>
+    </url>
+    <url>
+        <loc>Nonees/exercises/string_reversal/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/string_reversal/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/string_reversal/"/>
+    </url>
+    <url>
+        <loc>Nonees/exercises/sum_list_recursive/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/sum_list_recursive/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/sum_list_recursive/"/>
+    </url>
+    <url>
+        <loc>Nonees/exercises/sum_two_numbers/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/sum_two_numbers/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/sum_two_numbers/"/>
+    </url>
+    <url>
+        <loc>Nonees/exercises/variable_swap/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/variable_swap/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/variable_swap/"/>
+    </url>
+    <url>
+        <loc>Nonees/exercises/word_count/</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/exercises/word_count/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneexercises/word_count/"/>
+    </url>
+</urlset>
