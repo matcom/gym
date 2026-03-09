@@ -1,6 +1,10 @@
 {
   "apiad": {
-    "total_score": 0,
-    "completed": []
+    "total_score": 30,
+    "completed": [
+      "hello_world",
+      "fibonacci",
+      "palindrome"
+    ]
   }
 }
