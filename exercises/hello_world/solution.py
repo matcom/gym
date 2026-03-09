@@ -1,6 +1,6 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def hello_world() -> int | None:
     """The classic first step in programming."""
-    pass
+    return "Hello, World!"
