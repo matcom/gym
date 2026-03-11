@@ -1,4 +1,4 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def prime_check(_n: int) -> bool:
@@ -13,12 +13,19 @@ def prime_check(_n: int) -> bool:
     >>> prime_check(17)
     True
     """
-    return False
+    if(_n < 2):
+        return False
+    i = 2
+    while(i * i <= _n):
+        if((_n % i) == 0):
+            return False
+        i += 1
+    return True
 
 
 def test() -> None:
     """Simple self-test for Primality Test."""
-    cases = {2: True, 4: False, 17: True, 1: False, 0: False, 97: True}
+    cases = {2: True, 4: False, 17: True, 1: False, 0: False, 97: True, 5: True, 15: False}
     for n, expected in cases.items():
         try:
             res = prime_check(n)
