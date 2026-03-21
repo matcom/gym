@@ -25,9 +25,6 @@ def binary_search_recursive(
         lst[mid + 1:]
         return binary_search_recursive(lst, target, mid + 1, len(lst) - 1)
     
-    return -1   # 4. si no se ha encontrado, retornar -1
- 
-
 
 
 def test() -> None:
