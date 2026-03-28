@@ -1,19 +1,31 @@
 SUBMIT = False
 
+def case_inverter_rec(s: str, inverted_s: str, index: int):
+
+    if len(s) == len(inverted_s):
+        return inverted_s
+    
+    current_char = s[index]
+    if not current_char.isalpha():
+        inverted_s += current_char
+        return case_inverter_rec(s, inverted_s, index + 1)
+    elif current_char.islower():
+        inverted_s += current_char.upper()
+        return case_inverter_rec(s, inverted_s, index + 1)
+    else:
+        inverted_s += current_char.lower()
+        return case_inverter_rec(s, inverted_s, index + 1)
+    
 
 def case_inverter(s: str) -> str:  # noqa: ARG001
     """
     Inverts the case of each character in a string.
     """
-    inverted_s = ""
-    for char in s:
-        if char.islower():
-            inverted_s += char.upper()
-        elif char.isupper():
-            inverted_s += char.lower()
-        else:
-            inverted_s += char
-    return inverted_s
+    # metodo portal
+    inverted_s = "" # para almacenar el nuveo str
+    index = 0   # para llevar el indice de str
+    return case_inverter_rec(s, inverted_s, index) # metodo recursivo
+
 
 
 def test() -> None:
@@ -21,8 +33,8 @@ def test() -> None:
     cases = [
         ("Hello World!", "hELLO wORLD!"),
         ("", ""),
-        ("all lower", "ALL UPPER"),
-        ("ALL UPPER", "all lower"),
+        ("all lower", "ALL LOWER"),
+        ("ALL UPPER", "all upper"),
         ("1234567890 !@#$%^&*()", "1234567890 !@#$%^&*()"),
         ("Python 3.12", "pYTHON 3.12"),
     ]
