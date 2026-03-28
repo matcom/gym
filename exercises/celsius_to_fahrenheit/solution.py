@@ -1,4 +1,4 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def celsius_to_fahrenheit(_celsius: float) -> float:
@@ -13,7 +13,10 @@ def celsius_to_fahrenheit(_celsius: float) -> float:
     >>> celsius_to_fahrenheit(-40)
     -40.0
     """
-    return 0.0
+    
+    farenheit=(_celsius * 9/5)+32
+    
+    return farenheit
 
 
 def test() -> None:
