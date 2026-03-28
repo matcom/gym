@@ -1,4 +1,4 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def fibonacci(n: int) -> int:
@@ -14,7 +14,12 @@ def fibonacci(n: int) -> int:
     >>> fibonacci(10)
     55
     """
-    return 0
+    x=1
+    y=0
+    for i in range(n):
+        x,y=y,x+y
+    return y
+    
 
 
 def test() -> None:
