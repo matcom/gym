@@ -1,10 +1,13 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def fibonacci_tail(n: int, a: int = 0, b: int = 1) -> int:
-    """Tail Recursive Fibonacci"""
-    pass
-
+    if n <= 0 :
+        return 0
+    if n == 1 :
+        return 1 
+    else :
+        return fibonacci_tail(n-1) + fibonacci_tail(n-2)
 
 def test() -> None:
     """Simple self-test for Fibonacci Tail."""

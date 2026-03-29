@@ -1,12 +1,12 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def matrix_trace(mat: list[list[int | float]]) -> int | float:
     """Calculates the trace of a square matrix."""
-    trace = 0
+    traza = 0
     for i in range(len(mat)):
-        trace += mat[i][i]
-    return trace
+        traza += mat[i][i]
+    return traza
 
 
 def test() -> None:

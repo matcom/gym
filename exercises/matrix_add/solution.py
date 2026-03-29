@@ -1,4 +1,4 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def matrix_add(mat1: list[list[int | float]], mat2: list[list[int | float]]) -> list[list[int | float]]:
@@ -6,7 +6,11 @@ def matrix_add(mat1: list[list[int | float]], mat2: list[list[int | float]]) -> 
     # Placeholder implementation
     _ = mat1
     _ = mat2
-    return []
+   
+    for i in range (len(mat2)):
+        mat1[i] += mat2[i]
+
+    return mat1
 
 
 def test() -> None:

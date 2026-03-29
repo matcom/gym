@@ -11,7 +11,8 @@ def personalized_greeting(_name: str, _age: int) -> str:
     >>> personalized_greeting("Bob", 30)
     'Hello Bob, you are 30 years old'
     """
-    return ""
+    
+    return f"Hello {_name}, you are {_age} years old"
 
 
 def test() -> None:
