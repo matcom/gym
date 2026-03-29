@@ -191,5 +191,42 @@
       "fast_exponentiation",
       "recursive_min_max"
     ]
+  },
+  "V3RD3D": {
+    "total_score": 187,
+    "completed": [
+      "hello_world",
+      "fibonacci",
+      "palindrome",
+      "sum_two_numbers",
+      "personalized_greeting",
+      "celsius_to_fahrenheit",
+      "simple_interest",
+      "variable_swap",
+      "linear_search",
+      "min_max_list",
+      "list_average",
+      "list_mode",
+      "prefix_sums",
+      "prime_check",
+      "factorial_iterative",
+      "count_vowels",
+      "case_inverter",
+      "word_count",
+      "string_reversal",
+      "char_frequency",
+      "poly_evaluate",
+      "poly_add",
+      "poly_mul",
+      "matrix_add",
+      "matrix_trace",
+      "matrix_mul",
+      "factorial_tail",
+      "fibonacci_tail",
+      "sum_list_recursive",
+      "binary_search_recursive",
+      "fast_exponentiation",
+      "recursive_min_max"
+    ]
   }
 }
