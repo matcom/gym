@@ -36,6 +36,7 @@ def test_exercise_solutions_have_asserts() -> None:
             f"test() function in {exercise.name} missing assert statement"
         )
 
+
 # Add a test function with an assert for count_vowels
 def test():
     # Example: assert count_vowels("hello") == 2

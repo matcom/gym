@@ -1,6 +1,6 @@
 from typing import Any
 
-SUBMIT = False
+SUBMIT = True
 
 
 def list_mode(_items: list[Any]) -> Any:
@@ -12,7 +12,19 @@ def list_mode(_items: list[Any]) -> Any:
     >>> list_mode(['a', 'b', 'a'])
     'a'
     """
-    return None
+    if(_items.__len__() <= 0):
+        return None
+    _map = {}
+    for item in _items:
+        if item in _map:
+            _map[item] += 1
+        else:
+            _map[item] = 1
+    _item, _num = _items[0], _map[_items[0]]
+    for item, num in _map.items():
+        if(num > _num):
+            _item, _num = item, num
+    return _item
 
 
 def test() -> None:

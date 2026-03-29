@@ -1,4 +1,4 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def char_frequency(s: str) -> dict[str, int]:

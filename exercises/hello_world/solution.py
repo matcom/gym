@@ -1,4 +1,4 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def hello_world() -> str:
@@ -8,7 +8,7 @@ def hello_world() -> str:
     >>> hello_world()
     'Hello, World!'
     """
-    return ""
+    return "Hello, World!"
 
 
 def test() -> None:

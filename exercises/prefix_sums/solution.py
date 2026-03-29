@@ -1,4 +1,4 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def prefix_sums(_numbers: list[int]) -> list[int]:
@@ -10,7 +10,11 @@ def prefix_sums(_numbers: list[int]) -> list[int]:
     >>> prefix_sums([10, -10, 5])
     [10, 0, 5]
     """
-    return []
+    arr = _numbers[:]
+    n = len(arr)
+    for i in range(1, n):
+        arr[i] += arr[i - 1]
+    return arr
 
 
 def test() -> None:
