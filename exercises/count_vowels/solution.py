@@ -1,5 +1,6 @@
 import ast
 from pathlib import Path
+SUBMIT = True
 
 def test_exercise_solutions_have_asserts() -> None:
     """Verify that all exercise solution stubs have a test() function with asserts."""
@@ -37,6 +38,14 @@ def test_exercise_solutions_have_asserts() -> None:
         )
 
 # Add a test function with an assert for count_vowels
+def count_vowels(s: str) -> int:
+    vowels = 'aeiouAEIOU'
+    count = 0
+    for char in s:
+        if char in vowels:
+            count += 1
+    return count
+
 def test():
     # Example: assert count_vowels("hello") == 2
     # For simplicity, we'll add a basic assert that checks function existence and returns true
