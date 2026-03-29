@@ -1,12 +1,17 @@
-SUBMIT = False
+SUBMIT = True
 
-
-def recursive_min_max(
-    lst: list[int], low: int = 0, high: int | None = None
-) -> tuple[int, int]:
-    """Recursive Min/Max"""
-    pass
-
+#hice algunos cambios en la definicion de la funcion porque el low inicializaba en 0 y bueno pueden existir valores negativos 
+def recursive_min_max(lst: list[int], low: int | None = None, high: int | None = None) -> tuple[int, int]:
+    if not lst:
+        return (low, high)
+    
+    first = lst[0]
+    if low is None or first < low:
+        low = first
+    if high is None or first > high:
+        high = first
+    
+    return recursive_min_max(lst[1:], low, high)
 
 def test() -> None:
     """Simple self-test for Recursive Min/Max."""

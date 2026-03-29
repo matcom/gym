@@ -1,10 +1,18 @@
-SUBMIT = False
+SUBMIT = True
 
-
+#lo hice con un ciclo y varios casos de prueba pero en phyton se puede usar algo que segun investigue
+#se llama string.split que t genera una lista con cada palabra ...luego solo usarias el len
 def word_count(s: str) -> int:
-    """Counts the number of words in a string."""
-    return len(s.split())
-
+    if not s: 
+        return 0
+    elif ' ' not in s: 
+        return 1
+    
+    count = 0
+    for i in range(len(s)):
+        if s[i] != ' ' and (i == 0 or s[i-1] == ' '):
+            count += 1
+    return count
 
 def test() -> None:
     """Simple self-test for Word Count."""

@@ -1,18 +1,11 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def factorial_iterative(_n: int) -> int:
-    # noqa: ARG001
-    """Calculates n! using a loop.
-
-    Example usage:
-    >>> factorial_iterative(0)
-    1
-    >>> factorial_iterative(5)
-    120
-    """
-    return 0
-
+    solution = 1
+    for i in range(1,_n+1):
+        solution*= i
+    return solution
 
 def test() -> None:
     """Simple self-test for Iterative Factorial."""

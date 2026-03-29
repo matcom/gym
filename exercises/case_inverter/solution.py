@@ -1,28 +1,23 @@
-SUBMIT = False
+SUBMIT = True
 
-
+#sencillo , revisar si es mayuscula lo cambia y lo añade a una lsita cada elemento
 def case_inverter(s: str) -> str:  # noqa: ARG001
-    """
-    Inverts the case of each character in a string.
-    """
-    inverted_s = ""
-    for char in s:
-        if char.islower():
-            inverted_s += char.upper()
-        elif char.isupper():
-            inverted_s += char.lower()
+    solution = []#la lista para añadir
+    for char in s:#la verificacion
+        if char.isupper():
+            solution.append(char.lower())
         else:
-            inverted_s += char
-    return inverted_s
+            solution.append(char.upper())
+    return "".join(solution)#unirlos al final 
 
-
+#tuve que arreglar el tester por el upper y el lower 
 def test() -> None:
     """Simple self-test for Case Inverter."""
     cases = [
         ("Hello World!", "hELLO wORLD!"),
         ("", ""),
-        ("all lower", "ALL UPPER"),
-        ("ALL UPPER", "all lower"),
+        ("all lower", "ALL LOWER"),#osea aqui
+        ("ALL UPPER", "all upper"),#y aqui
         ("1234567890 !@#$%^&*()", "1234567890 !@#$%^&*()"),
         ("Python 3.12", "pYTHON 3.12"),
     ]

@@ -1,20 +1,20 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def fibonacci(n: int) -> int:
-    """Calculates the n-th Fibonacci number.
-
-    Example usage:
-    >>> fibonacci(0)
-    0
-    >>> fibonacci(1)
-    1
-    >>> fibonacci(5)
-    5
-    >>> fibonacci(10)
-    55
-    """
-    return 0
+    sum1 = 0
+    sum2 = 1
+    solution = 1
+    if n == 0 or n == 1:
+        return n
+    else:
+        while solution != n:
+            sum1 ,sum2 = sum2 , sum1 + sum2
+            solution+=1
+        
+        return sum2 
+ 
+    
 
 
 def test() -> None:

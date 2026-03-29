@@ -1,19 +1,18 @@
-SUBMIT = False
+import math
+SUBMIT = True
 
+#optimizado , se parece cantidad a una induccion fuerte jjj
+def prime_check(n: int) -> bool:
+    if n == 2:
+        return True
+    if n < 2 or n % 2 == 0:
+        return False
+    
+    for i in range(3, math.isqrt(n) + 1, 2):
+        if n % i == 0:
+            return False
+    return True
 
-def prime_check(_n: int) -> bool:
-    # noqa: ARG001
-    """Checks if a number is prime.
-
-    Example usage:
-    >>> prime_check(2)
-    True
-    >>> prime_check(4)
-    False
-    >>> prime_check(17)
-    True
-    """
-    return False
 
 
 def test() -> None:

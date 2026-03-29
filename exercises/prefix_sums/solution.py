@@ -1,16 +1,12 @@
-SUBMIT = False
+SUBMIT = True
 
-
-def prefix_sums(_numbers: list[int]) -> list[int]:
-    """Returns the cumulative sums of a list.
-
-    Example usage:
-    >>> prefix_sums([1, 2, 3])
-    [1, 3, 6]
-    >>> prefix_sums([10, -10, 5])
-    [10, 0, 5]
-    """
-    return []
+#tuve que añadirle un elemento a la funcion para que me saliese la parte recursiva 
+def prefix_sums(_numbers: list[int], current: int = 0) -> list[int]:
+    if not _numbers:
+        return []
+    current += _numbers[0]
+    return [current] + prefix_sums(_numbers[1:], current)#aprovechamos que la suma de listas esta definida en phyton asi 
+#clase talla 
 
 
 def test() -> None:

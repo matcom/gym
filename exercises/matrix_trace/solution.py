@@ -1,12 +1,14 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def matrix_trace(mat: list[list[int | float]]) -> int | float:
-    """Calculates the trace of a square matrix."""
-    trace = 0
-    for i in range(len(mat)):
-        trace += mat[i][i]
-    return trace
+    #ahora que lo pienso , lo que hice fue un for 😅
+    solution =mat[0][0]
+    i = 1
+    while i != len(mat): 
+        solution += mat[i][i]
+        i+=1
+    return solution  
 
 
 def test() -> None:

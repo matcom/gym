@@ -1,17 +1,10 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def simple_interest(_principal: float, _rate: float, _time: float) -> float:
     # noqa: ARG001
-    """Calculates simple interest using the formula: I = (P * R * T) / 100.
-
-    Example usage:
-    >>> simple_interest(1000, 5, 2)
-    100.0
-    >>> simple_interest(500, 3.5, 1)
-    17.5
-    """
-    return 0.0
+    #Calculates simple interest using the formula: I = (P * R * T) / 100.
+     return (_principal * _rate * _time) / 100
 
 
 def test() -> None:
