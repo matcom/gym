@@ -1,4 +1,4 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def list_average(_numbers: list[float]) -> float:
@@ -10,7 +10,10 @@ def list_average(_numbers: list[float]) -> float:
     >>> list_average([10, 20, 30])
     20.0
     """
-    return 0.0
+    sum=0
+    for i in _numbers:
+        sum+=i
+    return sum/len(_numbers)
 
 
 def test() -> None:

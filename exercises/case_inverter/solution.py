@@ -1,5 +1,5 @@
-SUBMIT = False
-
+SUBMIT = True
+#ya venia con la respuesta xd
 
 def case_inverter(s: str) -> str:  # noqa: ARG001
     """

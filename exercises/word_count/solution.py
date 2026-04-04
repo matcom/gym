@@ -1,4 +1,4 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def word_count(s: str) -> int:
