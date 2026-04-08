@@ -1,4 +1,4 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def palindrome(_text: str) -> bool:
@@ -11,6 +11,8 @@ def palindrome(_text: str) -> bool:
     >>> palindrome("hello")
     False
     """
+    if _text == _text[::-1] :
+        return True
     return False
 
 
