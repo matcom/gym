@@ -1,9 +1,11 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def fast_exponentiation(a: int, n: int) -> int:
-    """Fast Exponentiation"""
-    pass
+    if n == 0 :
+        return 1
+    else :
+        return a * fast_exponentiation(a,n-1)
 
 
 def test() -> None:

@@ -12,7 +12,12 @@ def linear_search(_items: list[int], _target: int) -> int:
     >>> linear_search([], 5)
     -1
     """
-    return 0
+    
+    for i in range(len(_items)) :
+        if _items[i] == _target :
+            return i 
+    return -1
+        
 
 
 def test() -> None:

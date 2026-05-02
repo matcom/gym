@@ -1,5 +1,5 @@
-SUBMIT = False
-
+SUBMIT = True
+import math
 
 def prime_check(_n: int) -> bool:
     # noqa: ARG001
@@ -13,7 +13,14 @@ def prime_check(_n: int) -> bool:
     >>> prime_check(17)
     True
     """
-    return False
+    if _n < 2 :
+        return False 
+    raice = math.sqrt(_n)
+   
+    for i in range(2, int(raice)+1) :
+        if _n % i == 0 :
+            return False 
+    return True
 
 
 def test() -> None:
