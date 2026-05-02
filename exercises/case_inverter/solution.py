@@ -1,19 +1,20 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def case_inverter(s: str) -> str:  # noqa: ARG001
     """
     Inverts the case of each character in a string.
     """
-    inverted_s = ""
+    new_s = ''
     for char in s:
-        if char.islower():
-            inverted_s += char.upper()
-        elif char.isupper():
-            inverted_s += char.lower()
+        if char.isalpha():
+            if char.islower():
+                new_s += char.upper()
+            else:
+                new_s += char.lower()
         else:
-            inverted_s += char
-    return inverted_s
+            new_s += char
+    return new_s  
 
 
 def test() -> None:
@@ -21,8 +22,8 @@ def test() -> None:
     cases = [
         ("Hello World!", "hELLO wORLD!"),
         ("", ""),
-        ("all lower", "ALL UPPER"),
-        ("ALL UPPER", "all lower"),
+        ("all lower", "ALL LOWER"),
+        ("ALL UPPER", "all upper"),
         ("1234567890 !@#$%^&*()", "1234567890 !@#$%^&*()"),
         ("Python 3.12", "pYTHON 3.12"),
     ]

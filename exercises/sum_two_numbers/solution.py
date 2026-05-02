@@ -1,19 +1,10 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def sum_two_numbers(_a: int, _b: int) -> int:
     # noqa: ARG001
-    """Returns the sum of two integers.
-
-    Example usage:
-    >>> sum_two_numbers(3, 4)
-    7
-    >>> sum_two_numbers(-1, 1)
-    0
-    >>> sum_two_numbers(0, 0)
-    0
-    """
-    return 0
+    """Returns the sum of two integers."""
+    return _a + _b
 
 
 def test() -> None:

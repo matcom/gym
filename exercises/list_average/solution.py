@@ -1,16 +1,14 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def list_average(_numbers: list[float]) -> float:
-    """Returns the mean of a numeric list.
-
-    Example usage:
-    >>> list_average([1, 2, 3, 4, 5])
-    2.5
-    >>> list_average([10, 20, 30])
-    20.0
-    """
-    return 0.0
+    """Returns the mean of a numeric list."""
+    
+    if not _numbers:
+        return 0
+    s = sum(_numbers)
+    l = len(_numbers)
+    return s / l
 
 
 def test() -> None:

@@ -1,4 +1,4 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def sum_list_recursive(lst: list[int]) -> int:

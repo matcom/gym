@@ -1,16 +1,15 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def prefix_sums(_numbers: list[int]) -> list[int]:
-    """Returns the cumulative sums of a list.
-
-    Example usage:
-    >>> prefix_sums([1, 2, 3])
-    [1, 3, 6]
-    >>> prefix_sums([10, -10, 5])
-    [10, 0, 5]
-    """
-    return []
+    """Returns the cumulative sums of a list"""
+    numbers_sum = []
+    for i in range(len(_numbers)):
+        count = _numbers[i]
+        for j in range(i):
+            count += _numbers[j]
+        numbers_sum.append(count)
+    return numbers_sum
 
 
 def test() -> None:

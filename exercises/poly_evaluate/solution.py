@@ -1,13 +1,13 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def poly_evaluate(poly: list[int | float], x: int | float) -> int | float:
     """Evaluates a polynomial at a given value x using Horner's method."""
-    result = 0
-    for coeff in reversed(poly):
-        result = result * x + coeff
-    return result
-
+    count = 0
+    for i in range(len(poly)-1, -1, -1):
+        count += poly[i] * (x**i)
+    
+    return count
 
 def test() -> None:
     """Simple self-test for Polynomial Evaluation."""

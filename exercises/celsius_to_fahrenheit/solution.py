@@ -1,19 +1,12 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def celsius_to_fahrenheit(_celsius: float) -> float:
     # noqa: ARG001
-    """Converts Celsius to Fahrenheit using the formula: F = (C * 9/5) + 32.
-
-    Example usage:
-    >>> celsius_to_fahrenheit(0)
-    32.0
-    >>> celsius_to_fahrenheit(100)
-    212.0
-    >>> celsius_to_fahrenheit(-40)
-    -40.0
-    """
-    return 0.0
+    """Converts Celsius to Fahrenheit using the formula: F = (C * 9/5) + 32."""
+    
+    F = (_celsius * 9/5) + 32
+    return F
 
 
 def test() -> None:

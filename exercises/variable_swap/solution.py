@@ -1,17 +1,11 @@
 from typing import Any
 
-SUBMIT = False
+SUBMIT = True
 
 
 def variable_swap(a: Any, b: Any) -> tuple[Any, Any]:
-    """Swaps the values of a and b.
-
-    Example usage:
-    >>> variable_swap(5, 10)
-    (10, 5)
-    >>> variable_swap("hello", "world")
-    ('world', 'hello')
-    """
+    """Swaps the values of a and b."""
+    a,b = b,a
     return a, b
 
 

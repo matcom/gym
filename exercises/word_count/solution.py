@@ -1,9 +1,12 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def word_count(s: str) -> int:
     """Counts the number of words in a string."""
-    return len(s.split())
+    
+    num = s.split()
+    num = len(num)
+    return num
 
 
 def test() -> None:

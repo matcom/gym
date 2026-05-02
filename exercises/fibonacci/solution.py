@@ -1,25 +1,19 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def fibonacci(n: int) -> int:
-    """Calculates the n-th Fibonacci number.
-
-    Example usage:
-    >>> fibonacci(0)
-    0
-    >>> fibonacci(1)
-    1
-    >>> fibonacci(5)
-    5
-    >>> fibonacci(10)
-    55
-    """
-    return 0
+    """Calculates the n-th Fibonacci number."""
+    
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    return fibonacci(n-1) + fibonacci(n-2)
 
 
 def test() -> None:
     """Simple self-test for Fibonacci."""
-    cases = {0: 0, 1: 1, 5: 5, 10: 55}
+    cases = {0: 0, 1: 1, 5: 5, 10: 55, 30: 832040}
     for n, expected in cases.items():
         try:
             res = fibonacci(n)
