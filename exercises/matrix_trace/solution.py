@@ -1,4 +1,4 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def matrix_trace(mat: list[list[int | float]]) -> int | float:
@@ -7,6 +7,7 @@ def matrix_trace(mat: list[list[int | float]]) -> int | float:
     for i in range(len(mat)):
         trace += mat[i][i]
     return trace
+
 
 
 def test() -> None:

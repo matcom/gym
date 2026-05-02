@@ -1,19 +1,19 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def prime_check(_n: int) -> bool:
     # noqa: ARG001
-    """Checks if a number is prime.
-
-    Example usage:
-    >>> prime_check(2)
-    True
-    >>> prime_check(4)
-    False
-    >>> prime_check(17)
-    True
-    """
-    return False
+    """Checks if a number is prime"""
+    if _n == 0 or _n == 1:
+        return False
+    raiz = _n**(1/2)
+    
+    i = 2
+    while i <= raiz:
+        if _n%i == 0:
+            return False
+        i += 1
+    return True
 
 
 def test() -> None:

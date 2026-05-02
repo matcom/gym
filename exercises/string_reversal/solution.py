@@ -1,13 +1,14 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def string_reversal(s: str) -> str:  # noqa: ARG001
     """
     Reverses a string.
     """
-    # Add a basic assert to the stub to satisfy the test
-    assert True, "Placeholder assert for string reversal" # Placeholder assert
-    return ""
+    new_s = ''
+    for char in s:
+        new_s = char + new_s
+    return new_s
 
 
 def test() -> None:

@@ -1,17 +1,21 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def palindrome(_text: str) -> bool:
     # noqa: ARG001
-    """Checks if a string is a palindrome.
-
-    Example usage:
-    >>> palindrome("racecar")
-    True
-    >>> palindrome("hello")
-    False
-    """
-    return False
+    """Checks if a string is a palindrome."""
+    new_text = []
+    for char in _text:
+        new_text.append(char)
+    i, j = 0, len(new_text)-1
+    
+    while i < j:
+        if new_text[i] != new_text[j]:
+            return False
+        i +=1
+        j -= 1
+    return True
+    
 
 
 def test() -> None:

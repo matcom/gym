@@ -1,6 +1,14 @@
 import ast
 from pathlib import Path
 
+def count_vowels(s: str) -> int:
+    vowels = {'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'}
+    count = 0
+    for char in s:
+        if char in vowels:
+            count += 1
+    return count
+
 def test_exercise_solutions_have_asserts() -> None:
     """Verify that all exercise solution stubs have a test() function with asserts."""
     root = Path(__file__).parent.parent

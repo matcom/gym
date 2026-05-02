@@ -1,18 +1,22 @@
 from typing import Any
 
-SUBMIT = False
+SUBMIT = True
 
 
 def list_mode(_items: list[Any]) -> Any:
-    """Returns the most frequent element in a list.
-
-    Example usage:
-    >>> list_mode([1, 2, 2, 3, 3, 3])
-    3
-    >>> list_mode(['a', 'b', 'a'])
-    'a'
-    """
-    return None
+    """Returns the most frequent element in a list."""
+    if not _items:
+        return None
+    elements = {}.fromkeys(_items, 0)
+    
+    for item in _items:
+        elements[item] += 1
+    
+    num = max(elements.values())
+    
+    for key, value in elements.items():
+        if value == num:
+            return key
 
 
 def test() -> None:

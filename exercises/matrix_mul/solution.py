@@ -1,6 +1,32 @@
 import ast
 from pathlib import Path
 
+def columna_i(mat, i):
+    columna = []
+    for fila in mat:
+        columna.append(fila[i])
+    return columna
+        
+def producto_escalar(fila_a, fila_b):
+    escalar = 0
+    for i in range(len(fila_a)):
+        escalar += fila_a[i] + fila_b[i]
+    return escalar
+        
+def matrix_mul(mat_a, mat_b):
+    columnas_b = len(mat_b[0])
+    mat_c = []
+    
+    for fila_a in mat_a:
+        fila_c = []
+        for i in range(columnas_b):
+            columna_b = columna_i(mat_b, i)
+            escalar = producto_escalar(fila_a, columna_b)
+            fila_c.append(escalar)
+        mat_c.append(fila_c)
+    return mat_c
+        
+
 def test_exercise_solutions_have_asserts() -> None:
     """Verify that all exercise solution stubs have a test() function with asserts."""
     root = Path(__file__).parent.parent
