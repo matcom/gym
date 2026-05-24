@@ -1,9 +1,10 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def factorial_tail(n: int, acc: int = 1) -> int:
-    """Tail Recursive Factorial"""
-    pass
+    if n == 0:
+        return 1
+    else: return(n * (factorial_tail(n-1)))
 
 
 def test() -> None:

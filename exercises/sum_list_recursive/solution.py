@@ -1,11 +1,10 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def sum_list_recursive(lst: list[int]) -> int:
-    """Calculates the sum of all elements in a list using recursion."""
     if not lst:
         return 0
-    return lst[0] + sum_list_recursive(lst[1:])
+    return lst[0] + sum_list_recursive(lst[1:])#bien phyton con el slice 
 
 
 def test() -> None:

@@ -1,11 +1,20 @@
-SUBMIT = False
+SUBMIT = True
 
 
-def binary_search_recursive(
-    lst: list[int], target: int, low: int = 0, high: int | None = None
-) -> int:
-    """Recursive Binary Search"""
-    pass
+def binary_search_recursive(lst: list[int], target: int, low: int = 0, high: int | None = None) -> int:
+    if high is None:
+        high = len(lst) - 1
+    if low > high:
+        return -1
+
+    #clase locura la recursion
+    if lst[(low + high) // 2] == target:
+        return (low + high) // 2
+    elif lst[(low + high) // 2] < target:
+        return binary_search_recursive(lst, target, (low + high) // 2 + 1, high)
+    else:
+        return binary_search_recursive(lst, target, low, (low + high) // 2 - 1)
+
 
 
 def test() -> None:

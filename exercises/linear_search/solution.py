@@ -1,18 +1,11 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def linear_search(_items: list[int], _target: int) -> int:
-    """Find the first index of a target value in a list.
-
-    Example usage:
-    >>> linear_search([10, 20, 30, 40, 50], 30)
-    2
-    >>> linear_search([1, 2, 3, 4, 5], 10)
-    -1
-    >>> linear_search([], 5)
-    -1
-    """
-    return 0
+    for i in range(len(_items)):
+        if _items[i] == _target:
+            return i
+    return -1
 
 
 def test() -> None:

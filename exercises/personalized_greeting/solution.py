@@ -1,17 +1,9 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def personalized_greeting(_name: str, _age: int) -> str:
-    # noqa: ARG001
-    """Returns a personalized greeting message.
-
-    Example usage:
-    >>> personalized_greeting("Alice", 25)
-    'Hello Alice, you are 25 years old'
-    >>> personalized_greeting("Bob", 30)
-    'Hello Bob, you are 30 years old'
-    """
-    return ""
+    
+    return f"Hello {_name}, you are {_age} years old"
 
 
 def test() -> None:

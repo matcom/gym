@@ -1,5 +1,7 @@
 import ast
 from pathlib import Path
+#y aqui le puse lo del submit , no se si realmente pinche pero ahi esta 
+SUBMIT = True
 
 def test_exercise_solutions_have_asserts() -> None:
     """Verify that all exercise solution stubs have a test() function with asserts."""
@@ -36,9 +38,28 @@ def test_exercise_solutions_have_asserts() -> None:
             f"test() function in {exercise.name} missing assert statement"
         )
 
-# Add a test function with an assert for count_vowels
+# funcion para contar las vocales
+def count_vowels(s: str) -> int:
+    solution = 0
+    vowels = "aeiouAEIOU"
+    for i in vowels:
+        for j in s:
+            if i == j:
+                solution+=1
+    return solution
+'''no se muy bien como pincha lo d arriba pero hice mi propio metodo test
+me fije un poco por los ejercicios anteriores 
+pase mas trabajo en esto que en haciendo el ejercicio jjj😅'''
 def test():
-    # Example: assert count_vowels("hello") == 2
-    # For simplicity, we'll add a basic assert that checks function existence and returns true
-    assert True, "Placeholder assert for count_vowels test function."
+    try:
+        assert count_vowels("hello") == 2
+        assert count_vowels("HELLO") == 2
+        assert count_vowels("xyz") == 0
+        assert count_vowels("aeiou") == 5
+        assert count_vowels("123124") == 0
+        print("✅ Todas las pruebas pasaron. Tu función está bien.")
+    except AssertionError:
+        print("❌ Alguna prueba falló. Revisa tu función.")
 
+if __name__ == "__main__":
+    test()

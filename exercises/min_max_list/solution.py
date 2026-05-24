@@ -1,18 +1,17 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def min_max_list(_items: list[int]) -> tuple[int, int] | None:
-    """Find both min and max values in a list by iterating once.
-
-    Example usage:
-    >>> min_max_list([3, 1, 4, 1, 5, 9, 2, 6, 5])
-    (1, 9)
-    >>> min_max_list([10])
-    (10, 10)
-    >>> min_max_list([])
-    None
-    """
-    return (0, 0)
+    if _items == []:
+        return None
+    max = _items[0]
+    min = max
+    for i in _items:
+        if i < min:
+            min = i
+        if i > max:
+            max = i
+    return (min, max)
 
 
 def test() -> None:
