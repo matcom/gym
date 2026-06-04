@@ -1,4 +1,4 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def linear_search(_items: list[int], _target: int) -> int:
@@ -12,7 +12,11 @@ def linear_search(_items: list[int], _target: int) -> int:
     >>> linear_search([], 5)
     -1
     """
-    return 0
+    n = len(_items)
+    for i in range(n):
+        if(_items[i] == _target):
+            return i
+    return -1
 
 
 def test() -> None:

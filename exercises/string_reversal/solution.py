@@ -1,4 +1,4 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def string_reversal(s: str) -> str:  # noqa: ARG001
@@ -7,7 +7,10 @@ def string_reversal(s: str) -> str:  # noqa: ARG001
     """
     # Add a basic assert to the stub to satisfy the test
     assert True, "Placeholder assert for string reversal" # Placeholder assert
-    return ""
+    _s = ""
+    for char in reversed(s):
+        _s += char
+    return _s
 
 
 def test() -> None:

@@ -1,11 +1,22 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def binary_search_recursive(
     lst: list[int], target: int, low: int = 0, high: int | None = None
 ) -> int:
-    """Recursive Binary Search"""
-    pass
+    if(high is None): 
+        high = len(lst) - 1
+
+    if(low > high): 
+        return -1
+    
+    mid = (low + high) // 2
+    if(lst[mid] == target):
+        return mid
+    elif(lst[mid] < target):
+        return binary_search_recursive(lst, target, low, mid - 1)
+    else:
+        return binary_search_recursive(lst, target, mid + 1, high)
 
 
 def test() -> None:

@@ -1,6 +1,6 @@
 from typing import Any
 
-SUBMIT = False
+SUBMIT = True
 
 
 def variable_swap(a: Any, b: Any) -> tuple[Any, Any]:
@@ -12,7 +12,7 @@ def variable_swap(a: Any, b: Any) -> tuple[Any, Any]:
     >>> variable_swap("hello", "world")
     ('world', 'hello')
     """
-    return a, b
+    return b, a
 
 
 def test() -> None:

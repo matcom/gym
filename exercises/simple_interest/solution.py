@@ -1,4 +1,4 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def simple_interest(_principal: float, _rate: float, _time: float) -> float:
@@ -11,7 +11,7 @@ def simple_interest(_principal: float, _rate: float, _time: float) -> float:
     >>> simple_interest(500, 3.5, 1)
     17.5
     """
-    return 0.0
+    return (_principal * _rate * _time) / 100
 
 
 def test() -> None:

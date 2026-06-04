@@ -1,12 +1,14 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def poly_mul(poly1: list[int | float], poly2: list[int | float]) -> list[int | float]:
     """Multiplies two polynomials."""
-    _poly1 = poly1
-    _poly2 = poly2
-    # Placeholder implementation
-    return []
+    n1, n2 = len(poly1), len(poly2)
+    poly = [0] * (n1 + n2 - 1)
+    for i, v1 in enumerate(poly1):
+        for j, v2 in enumerate(poly2):
+            poly[i + j] += v1 * v2
+    return poly
 
 
 def test() -> None:
