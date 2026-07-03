@@ -1,4 +1,4 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def sum_two_numbers(_a: int, _b: int) -> int:
@@ -13,7 +13,7 @@ def sum_two_numbers(_a: int, _b: int) -> int:
     >>> sum_two_numbers(0, 0)
     0
     """
-    return 0
+    return _a+_b
 
 
 def test() -> None:

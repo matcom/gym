@@ -1,6 +1,6 @@
 from typing import Any
 
-SUBMIT = False
+SUBMIT = True
 
 
 def list_mode(_items: list[Any]) -> Any:
@@ -12,7 +12,16 @@ def list_mode(_items: list[Any]) -> Any:
     >>> list_mode(['a', 'b', 'a'])
     'a'
     """
-    return None
+    count = {}
+    if not _items:
+        return
+    for item in _items:
+        if item in count:
+            count[item] += 1
+        else:
+            count[item] = 1
+    
+    return max(count, key=count.get)
 
 
 def test() -> None:

@@ -1,4 +1,4 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def min_max_list(_items: list[int]) -> tuple[int, int] | None:
@@ -12,7 +12,17 @@ def min_max_list(_items: list[int]) -> tuple[int, int] | None:
     >>> min_max_list([])
     None
     """
-    return (0, 0)
+    # El mayor entero que cabe en una "palabra" de memoria (64 bits)
+    a = float('inf')
+    b = float('-inf')
+    if  not _items:
+        return None
+    for i in _items:
+        if i > b:
+            b =i
+        if i < a:
+            a=i  
+    return (a,b)
 
 
 def test() -> None:

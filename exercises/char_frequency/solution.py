@@ -1,11 +1,14 @@
-SUBMIT = False
+SUBMIT = True
 
 
 def char_frequency(s: str) -> dict[str, int]:
     """Counts the frequency of each character in a string."""
     counts = {}
     for char in s:
-        counts[char] = counts.get(char, 0) + 1
+        if char in counts:
+            counts[char] += 1
+        else:
+            counts[char] = 1
     return counts
 
 
