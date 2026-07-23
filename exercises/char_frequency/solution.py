@@ -1,13 +1,23 @@
 SUBMIT = False
 
+def char_frequency_rec(s: str, result: dict[str, int], index: int):
+    if index == len(s):
+        return result
+    
+    current_char = s[index]
+    
+    if current_char in result:
+        result[current_char] += 1
+    else:
+        result[current_char] = 1
 
+    return char_frequency_rec(s, result, index + 1)
+    
 def char_frequency(s: str) -> dict[str, int]:
-    """Counts the frequency of each character in a string."""
-    counts = {}
-    for char in s:
-        counts[char] = counts.get(char, 0) + 1
-    return counts
-
+    """Counts the frequency of each character in a string.""" 
+    result = {}
+    index = 0
+    return char_frequency_rec(s, result, index)
 
 def test() -> None:
     """Simple self-test for Character Frequency."""

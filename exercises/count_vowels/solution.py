@@ -1,6 +1,24 @@
 import ast
 from pathlib import Path
 
+def count_vowels_rec(s: str, index: int, cant: int):
+    if index == len(s):
+        return cant
+    
+    current_char = s[index].lower()
+    if not (current_char == 'a' or 
+        current_char == 'e' or 
+        current_char == 'i' or
+        current_char == 'o' or current_char == 'u'):
+        return count_vowels_rec(s, index + 1, cant)
+    
+    return count_vowels_rec(s, index + 1, cant + 1)
+
+def count_vowels(s: str):
+    """ Returns the number of vowels (both uppercase and lowercase) in a given string. """
+    return count_vowels_rec(s, 0, 0)
+
+
 def test_exercise_solutions_have_asserts() -> None:
     """Verify that all exercise solution stubs have a test() function with asserts."""
     root = Path(__file__).parent.parent
@@ -39,6 +57,12 @@ def test_exercise_solutions_have_asserts() -> None:
 # Add a test function with an assert for count_vowels
 def test():
     # Example: assert count_vowels("hello") == 2
-    # For simplicity, we'll add a basic assert that checks function existence and returns true
-    assert True, "Placeholder assert for count_vowels test function."
+    assert count_vowels("hello") == 2, (f"expected 2, got: {count_vowels("hello")}")
+    assert count_vowels("mississipi") == 4, (f"expected 4, got: {count_vowels("mississipi")}")
+    assert count_vowels("AEIOU") == 5, (f"expected 5, got: {count_vowels("AEIOU")}")
+    assert count_vowels("AeEeiOU") == 7, (f"expected 7, got: {count_vowels("AeEeiOU")}")
+    print ("All test passed")
+    
+if __name__ == "__main__":
+    test()
 

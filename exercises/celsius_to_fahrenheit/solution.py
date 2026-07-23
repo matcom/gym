@@ -10,10 +10,24 @@ def celsius_to_fahrenheit(_celsius: float) -> float:
     32.0
     >>> celsius_to_fahrenheit(100)
     212.0
-    >>> celsius_to_fahrenheit(-40)
+    >>> celsius_to_fahrenheit(-40)  
     -40.0
     """
-    return 0.0
+
+    # F(0) = 32
+    # F(1) = 32 + 9/5 = F(0) + 9/5
+    # F(2) = F(1) + 9/5 = 32 + 2*9/5
+    # F(n) = F(n-1) + 9/5 = 32 + n*9/5  forma recursiva
+
+    if _celsius == 0:
+        return 32.0
+    
+    elif _celsius < 0:
+        return celsius_to_fahrenheit(_celsius + 1) - 9/5
+    
+    else:
+        return celsius_to_fahrenheit(_celsius - 1) + 9/5
+
 
 
 def test() -> None:
