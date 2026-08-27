@@ -1,0 +1,15 @@
+{
+  "slug": "palindrome",
+  "title": "¿Es palíndromo?",
+  "topic": "strings",
+  "difficulty": "easy",
+  "signature": "def is_palindrome(text: str) -> bool",
+  "tags": ["strings", "slicing"],
+  "buckets": [
+    {"name": "basic", "hint": "compara el string con su reverso — cuidado con la definición"},
+    {"name": "empty", "hint": "el string vacío se considera palíndromo por convención"},
+    {"name": "case", "hint": "las mayúsculas y minúsculas deben tratarse como iguales"},
+    {"name": "spaces", "hint": "los espacios se ignoran para determinar si es palíndromo"},
+    {"name": "single", "hint": "un string de un solo caracter es palíndromo trivialmente"}
+  ]
+}

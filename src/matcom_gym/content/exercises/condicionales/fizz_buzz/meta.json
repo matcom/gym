@@ -1,0 +1,14 @@
+{
+  "slug": "fizz_buzz",
+  "title": "Fizz Buzz",
+  "topic": "condicionales",
+  "difficulty": "easy",
+  "signature": "def fizz_buzz(n: int) -> str",
+  "tags": ["condicionales", "clasico"],
+  "buckets": [
+    {"name": "fizz", "hint": "los múltiplos de 3 (que no lo sean de 5) devuelven 'Fizz'"},
+    {"name": "buzz", "hint": "los múltiplos de 5 (que no lo sean de 3) devuelven 'Buzz'"},
+    {"name": "fizzbuzz", "hint": "los múltiplos de 15 devuelven 'FizzBuzz' — verifica ese caso ANTES que los otros"},
+    {"name": "none", "hint": "los que no son múltiplos ni de 3 ni de 5 devuelven el número como string"}
+  ]
+}

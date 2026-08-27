@@ -1,0 +1,14 @@
+{
+  "slug": "compose_two",
+  "title": "Composición de dos funciones",
+  "topic": "funciones",
+  "difficulty": "medium",
+  "signature": "def compose(f, g)",
+  "tags": ["funciones", "higher-order", "closures"],
+  "buckets": [
+    {"name": "basic", "hint": "devolvé una lambda o una función anidada que aplique g y después f"},
+    {"name": "identity", "hint": "componer con la identidad no cambia el resultado"},
+    {"name": "long_chain", "hint": "la composición debe poder anidarse: compose(f, compose(g, h))"},
+    {"name": "type_change", "hint": "el tipo puede cambiar entre g y f"}
+  ]
+}

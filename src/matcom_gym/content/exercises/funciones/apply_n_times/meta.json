@@ -1,0 +1,14 @@
+{
+  "slug": "apply_n_times",
+  "title": "Aplicar una función n veces",
+  "topic": "funciones",
+  "difficulty": "medium",
+  "signature": "def apply_n_times(f, x, n: int)",
+  "tags": ["funciones", "higher-order", "loops"],
+  "buckets": [
+    {"name": "basic", "hint": "aplicá f iterativamente n veces sobre x"},
+    {"name": "n_zero", "hint": "con n=0 debés devolver x sin aplicar f"},
+    {"name": "n_one", "hint": "con n=1 devolvés f(x)"},
+    {"name": "non_numeric", "hint": "el valor no tiene que ser numérico — funciona con cualquier tipo"}
+  ]
+}

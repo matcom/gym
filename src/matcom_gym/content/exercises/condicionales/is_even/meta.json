@@ -1,0 +1,14 @@
+{
+  "slug": "is_even",
+  "title": "¿Es par?",
+  "topic": "condicionales",
+  "difficulty": "easy",
+  "signature": "def is_even(n: int) -> bool",
+  "tags": ["condicionales", "aritmetica"],
+  "buckets": [
+    {"name": "basic", "hint": "verifica los casos con enteros positivos"},
+    {"name": "zero", "hint": "el cero es par por convención"},
+    {"name": "one", "hint": "el uno es el impar más pequeño"},
+    {"name": "negatives", "hint": "los enteros negativos también son pares o impares"}
+  ]
+}

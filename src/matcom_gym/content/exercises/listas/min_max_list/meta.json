@@ -1,0 +1,14 @@
+{
+  "slug": "min_max_list",
+  "title": "Devolver (mínimo, máximo)",
+  "topic": "listas",
+  "difficulty": "easy",
+  "signature": "def min_max(nums: list[int]) -> tuple[int, int]",
+  "tags": ["listas", "loops", "tuplas"],
+  "buckets": [
+    {"name": "basic", "hint": "recorré la lista una sola vez rastreando ambos valores"},
+    {"name": "single", "hint": "una lista con un solo elemento tiene ese valor como min Y como max"},
+    {"name": "all_same", "hint": "si todos los elementos son iguales, min == max"},
+    {"name": "negatives", "hint": "los negativos comparan como cualquier otro entero"}
+  ]
+}

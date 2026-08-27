@@ -1,0 +1,14 @@
+{
+  "slug": "factorial_iterative",
+  "title": "Factorial iterativo",
+  "topic": "ciclos",
+  "difficulty": "easy",
+  "signature": "def factorial(n: int) -> int",
+  "tags": ["loops", "math"],
+  "buckets": [
+    {"name": "basic", "hint": "usa un ciclo para multiplicar 1×2×...×n"},
+    {"name": "zero", "hint": "0! está definido como 1 por convención"},
+    {"name": "one", "hint": "1! = 1 — es el caso base más chico"},
+    {"name": "large", "hint": "el resultado crece rápido, pero Python maneja enteros de precisión arbitraria"}
+  ]
+}

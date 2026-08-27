@@ -1,0 +1,14 @@
+{
+  "slug": "is_leap_year",
+  "title": "Año bisiesto",
+  "topic": "condicionales",
+  "difficulty": "medium",
+  "signature": "def is_leap_year(year: int) -> bool",
+  "tags": ["condicionales", "calendario"],
+  "buckets": [
+    {"name": "div_4", "hint": "los años divisibles por 4 (y no por 100) son bisiestos"},
+    {"name": "not_leap", "hint": "los años que no son divisibles por 4 no son bisiestos"},
+    {"name": "century_not_leap", "hint": "los años que terminan en 00 son bisiestos SÓLO si son divisibles por 400"},
+    {"name": "century_leap", "hint": "los años múltiplos de 400 sí son bisiestos"}
+  ]
+}

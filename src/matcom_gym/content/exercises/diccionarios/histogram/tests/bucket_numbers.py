@@ -1,0 +1,5 @@
+from solution import histogram
+
+
+def run():
+    assert histogram([1, 1, 2, 3, 3, 3]) == {1: 2, 2: 1, 3: 3}

@@ -1,0 +1,15 @@
+{
+  "slug": "binary_search_recursive",
+  "title": "Búsqueda binaria recursiva",
+  "topic": "recursion",
+  "difficulty": "medium",
+  "signature": "def binary_search(sorted_list: list, target) -> int",
+  "tags": ["recursion", "search", "algorithms"],
+  "buckets": [
+    {"name": "found_middle", "hint": "verificá que el punto medio se calcula bien: (low + high) // 2"},
+    {"name": "found_first", "hint": "buscar el primer elemento debe devolver 0"},
+    {"name": "found_last", "hint": "buscar el último elemento debe devolver len(list)-1"},
+    {"name": "not_found", "hint": "cuando el intervalo se hace vacío (low > high) devolvé -1"},
+    {"name": "empty", "hint": "buscar en una lista vacía siempre da -1"}
+  ]
+}

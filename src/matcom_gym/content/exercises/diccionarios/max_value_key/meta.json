@@ -1,0 +1,14 @@
+{
+  "slug": "max_value_key",
+  "title": "Key con el valor máximo",
+  "topic": "diccionarios",
+  "difficulty": "easy",
+  "signature": "def max_value_key(d: dict) -> str",
+  "tags": ["diccionarios", "loops"],
+  "buckets": [
+    {"name": "basic", "hint": "iterá y llevá cuenta del mejor, o usá max(d, key=d.get)"},
+    {"name": "single", "hint": "un dict con una sola key devuelve esa key"},
+    {"name": "negatives", "hint": "el máximo entre negativos es el menos negativo"},
+    {"name": "tie", "hint": "si hay empate en el valor máximo, devolvé la primera key en orden de inserción"}
+  ]
+}

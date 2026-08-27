@@ -1,0 +1,14 @@
+{
+  "slug": "fibonacci",
+  "title": "n-ésimo número de Fibonacci",
+  "topic": "ciclos",
+  "difficulty": "medium",
+  "signature": "def fibonacci(n: int) -> int",
+  "tags": ["loops", "math"],
+  "buckets": [
+    {"name": "basic", "hint": "usa dos variables que se van reasignando en el ciclo"},
+    {"name": "zero", "hint": "F(0) = 0 por convención"},
+    {"name": "one", "hint": "F(1) = 1 — segundo caso base"},
+    {"name": "large", "hint": "una implementación iterativa debe correr en tiempo lineal — F(30) debe ser instantáneo"}
+  ]
+}

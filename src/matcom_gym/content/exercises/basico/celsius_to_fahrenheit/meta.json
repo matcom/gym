@@ -1,0 +1,14 @@
+{
+  "slug": "celsius_to_fahrenheit",
+  "title": "Conversión de temperatura",
+  "topic": "basico",
+  "difficulty": "easy",
+  "signature": "def celsius_to_fahrenheit(celsius: float) -> float",
+  "tags": ["basico", "aritmetica", "formula"],
+  "buckets": [
+    {"name": "basic", "hint": "usa la fórmula F = C × 9/5 + 32"},
+    {"name": "freezing_point", "hint": "el punto de congelación del agua (0 °C) debe dar 32 °F"},
+    {"name": "negatives", "hint": "las temperaturas bajo cero también deben funcionar"},
+    {"name": "decimals", "hint": "el resultado puede tener decimales — no redondees"}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "slug": "sum_two",
+  "title": "Suma de dos números",
+  "topic": "basico",
+  "difficulty": "easy",
+  "signature": "def sum_two(a: int, b: int) -> int",
+  "tags": ["basico", "aritmetica"],
+  "buckets": [
+    {"name": "basic", "hint": "verifica los casos con enteros positivos"},
+    {"name": "zero", "hint": "¿qué pasa cuando alguno de los sumandos es cero?"},
+    {"name": "negatives", "hint": "considera números negativos y mezcla de signos"},
+    {"name": "large", "hint": "el resultado no debería desbordar; Python maneja enteros grandes nativamente"}
+  ]
+}

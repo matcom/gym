@@ -1,0 +1,14 @@
+{
+  "slug": "rectangle_area",
+  "title": "Área del rectángulo",
+  "topic": "basico",
+  "difficulty": "easy",
+  "signature": "def rectangle_area(width: float, height: float) -> float",
+  "tags": ["basico", "geometria"],
+  "buckets": [
+    {"name": "basic", "hint": "el área es ancho × alto"},
+    {"name": "square", "hint": "un cuadrado es un rectángulo con lados iguales"},
+    {"name": "decimals", "hint": "los lados pueden ser decimales"},
+    {"name": "one_side", "hint": "si un lado es 1, el área debe ser igual al otro lado"}
+  ]
+}

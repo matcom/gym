@@ -1,0 +1,14 @@
+{
+  "slug": "histogram",
+  "title": "Histograma",
+  "topic": "diccionarios",
+  "difficulty": "easy",
+  "signature": "def histogram(items: list) -> dict",
+  "tags": ["diccionarios", "loops"],
+  "buckets": [
+    {"name": "basic", "hint": "usá un dict como acumulador — d.get(x, 0) + 1 es idiomático"},
+    {"name": "empty", "hint": "el histograma de una lista vacía es {}"},
+    {"name": "single", "hint": "una lista con un elemento da un dict con un par (elemento: 1)"},
+    {"name": "numbers", "hint": "el histograma funciona igual con números que con strings"}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "slug": "word_count",
+  "title": "Contar palabras",
+  "topic": "strings",
+  "difficulty": "easy",
+  "signature": "def word_count(text: str) -> int",
+  "tags": ["strings", "split"],
+  "buckets": [
+    {"name": "basic", "hint": "usa .split() para obtener las palabras y cuéntalas"},
+    {"name": "empty", "hint": "un string vacío tiene cero palabras"},
+    {"name": "multi_spaces", "hint": "múltiples espacios entre palabras cuentan como un separador"},
+    {"name": "whitespace", "hint": "tabs y saltos de línea también son separadores válidos"}
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "prime_check",
+  "title": "¿Es primo?",
+  "topic": "ciclos",
+  "difficulty": "medium",
+  "signature": "def is_prime(n: int) -> bool",
+  "tags": ["loops", "math"],
+  "buckets": [
+    {"name": "two", "hint": "el 2 es el único primo par"},
+    {"name": "small_primes", "hint": "verifica los primos chicos"},
+    {"name": "non_primes", "hint": "los compuestos no son primos"},
+    {"name": "zero_and_one", "hint": "0 y 1 NO son primos por convención"},
+    {"name": "larger", "hint": "para números grandes, basta iterar hasta √n"}
+  ]
+}

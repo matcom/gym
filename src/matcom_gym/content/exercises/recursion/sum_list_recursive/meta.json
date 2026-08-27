@@ -1,0 +1,14 @@
+{
+  "slug": "sum_list_recursive",
+  "title": "Suma recursiva de una lista",
+  "topic": "recursion",
+  "difficulty": "easy",
+  "signature": "def sum_list(nums: list[int]) -> int",
+  "tags": ["recursion", "lists"],
+  "buckets": [
+    {"name": "basic", "hint": "caso base: lista vacía → 0. Paso recursivo: primer elemento + sum_list del resto"},
+    {"name": "empty", "hint": "la suma de una lista vacía es 0 (tu caso base)"},
+    {"name": "single", "hint": "una lista con un solo elemento reduce a base + primero"},
+    {"name": "negatives", "hint": "la recursión no distingue signo"}
+  ]
+}

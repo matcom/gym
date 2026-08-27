@@ -1,0 +1,14 @@
+{
+  "slug": "factorial_recursive",
+  "title": "Factorial recursivo",
+  "topic": "recursion",
+  "difficulty": "easy",
+  "signature": "def factorial(n: int) -> int",
+  "tags": ["recursion", "math"],
+  "buckets": [
+    {"name": "basic", "hint": "definí el caso base (n == 0 ó n == 1) y el paso recursivo (n * factorial(n-1))"},
+    {"name": "zero", "hint": "0! = 1 — es el caso base fundamental"},
+    {"name": "one", "hint": "1! = 1 — otro caso base natural"},
+    {"name": "medium", "hint": "verifica que la recursión no explote para valores medianos"}
+  ]
+}

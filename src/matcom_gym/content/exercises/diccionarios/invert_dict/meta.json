@@ -1,0 +1,14 @@
+{
+  "slug": "invert_dict",
+  "title": "Invertir diccionario",
+  "topic": "diccionarios",
+  "difficulty": "easy",
+  "signature": "def invert_dict(d: dict) -> dict",
+  "tags": ["diccionarios"],
+  "buckets": [
+    {"name": "basic", "hint": "creá un nuevo dict con los valores como keys y viceversa"},
+    {"name": "empty", "hint": "invertir un dict vacío da otro dict vacío"},
+    {"name": "single", "hint": "un dict con un par se invierte trivialmente"},
+    {"name": "mixed_types", "hint": "las keys y valores pueden ser de cualquier tipo hashable"}
+  ]
+}

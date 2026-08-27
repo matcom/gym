@@ -1,0 +1,14 @@
+{
+  "slug": "linear_search",
+  "title": "Búsqueda lineal",
+  "topic": "listas",
+  "difficulty": "easy",
+  "signature": "def linear_search(items: list, target) -> int",
+  "tags": ["listas", "loops", "search"],
+  "buckets": [
+    {"name": "found_first", "hint": "si el elemento está en el índice 0, devolver 0"},
+    {"name": "found_middle", "hint": "verifica que devuelve el índice correcto cuando está en el medio"},
+    {"name": "not_found", "hint": "si el elemento no está, devolver -1 (no None, no False)"},
+    {"name": "empty", "hint": "buscar en una lista vacía siempre da -1"}
+  ]
+}

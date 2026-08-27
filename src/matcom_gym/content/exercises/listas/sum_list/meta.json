@@ -1,0 +1,14 @@
+{
+  "slug": "sum_list",
+  "title": "Sumar los elementos de una lista",
+  "topic": "listas",
+  "difficulty": "easy",
+  "signature": "def sum_list(nums: list[int]) -> int",
+  "tags": ["listas", "loops"],
+  "buckets": [
+    {"name": "basic", "hint": "recorré la lista acumulando o usá la función built-in"},
+    {"name": "empty", "hint": "la suma de una lista vacía es 0 por convención"},
+    {"name": "single", "hint": "una lista de un solo elemento devuelve ese elemento"},
+    {"name": "negatives", "hint": "los números negativos también se suman"}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "slug": "char_frequency",
+  "title": "Frecuencia de caracteres",
+  "topic": "strings",
+  "difficulty": "medium",
+  "signature": "def char_frequency(text: str) -> dict[str, int]",
+  "tags": ["strings", "dict"],
+  "buckets": [
+    {"name": "basic", "hint": "usa un dict como acumulador — .get(ch, 0) + 1 es idiomático"},
+    {"name": "empty", "hint": "el diccionario para un string vacío es {}"},
+    {"name": "single", "hint": "un solo caracter debe dar un dict con un solo par"},
+    {"name": "repeated", "hint": "verifica que los conteos sean correctos cuando hay repeticiones"}
+  ]
+}

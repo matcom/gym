@@ -31,6 +31,7 @@ packages = ["src/matcom_gym"]
 [tool.ruff]
 line-length = 100
 target-version = "py311"
+extend-exclude = ["src/matcom_gym/content/exercises"]
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B", "SIM"]

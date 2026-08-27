@@ -1,0 +1,14 @@
+{
+  "slug": "filter_positive",
+  "title": "Filtrar los positivos",
+  "topic": "funciones",
+  "difficulty": "easy",
+  "signature": "def filter_positive(nums: list[int]) -> list[int]",
+  "tags": ["funciones", "listas", "filter"],
+  "buckets": [
+    {"name": "basic", "hint": "podés usar una comprehension: [x for x in nums if x > 0]"},
+    {"name": "empty", "hint": "una lista vacía filtra a lista vacía"},
+    {"name": "all_negative", "hint": "si no hay positivos, devolvés lista vacía"},
+    {"name": "zero", "hint": "el cero no es positivo — no debe quedar en el resultado"}
+  ]
+}
