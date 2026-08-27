@@ -1,0 +1,14 @@
+{
+  "slug": "count_vowels",
+  "title": "Contar vocales",
+  "topic": "strings",
+  "difficulty": "easy",
+  "signature": "def count_vowels(text: str) -> int",
+  "tags": ["strings", "loops"],
+  "buckets": [
+    {"name": "basic", "hint": "revisa los casos con vocales normales en minúscula"},
+    {"name": "edge_empty", "hint": "¿qué pasa cuando el string está vacío?"},
+    {"name": "edge_case", "hint": "las mayúsculas también son vocales (A, E, I, O, U)"},
+    {"name": "edge_accents", "hint": "las vocales acentuadas del español cuentan (á, é, í, ó, ú, ü)"}
+  ]
+}
