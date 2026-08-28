@@ -24,9 +24,10 @@ build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/matcom_gym"]
-
-[tool.hatch.build.targets.wheel.force-include]
-"src/matcom_gym/content" = "matcom_gym/content"
+artifacts = [
+    "src/matcom_gym/content/**/*.md",
+    "src/matcom_gym/content/**/*.json",
+]
 
 [tool.ruff]
 line-length = 100
